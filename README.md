@@ -10,9 +10,9 @@ Dot Net Core Web Api to Communicate with External Tax Api (e.g. TaxJar)
 * [Api Swagger](#api-swagger-field) 
 * [Api in Action](#api-action-field) 
 
-## <h4 id="api-uml-field">Api UML</h4>
+## <h3 id="api-uml-field">Api UML</h3>
 
-## <h4 id="api-arc-field">Api Architecture</h4>  
+## <h3 id="api-arc-field">Api Architecture</h3>  
 
 This Api is build on .Net Core 3.1 which is a lightweight, cross platform and high performance framewrok. Api is build on Onion Architecture pattern which provides a better way to build applications for better testability, maintainability, and  dependability on the infrastructures like databases and service.
 
@@ -35,21 +35,22 @@ This Api is build on .Net Core 3.1 which is a lightweight, cross platform and hi
           
     ![image](https://user-images.githubusercontent.com/1794465/115149600-e07c8d00-a032-11eb-9852-5e3b5b717239.png)
 
-## <h4 id="api-security-field">Api Security</h4>
+## <h3 id="api-security-field">Api Security</h3>
    TaxApi is Secure and only allowed to Consumer with having valid consumer key. User without valid consumer key won;t be able to use this API and request will fail.
    Please use consumerKey as "f4b358d793ce4105b46d9f055cf53f79" to use this App. 
   
+   e.g. ConsumerKey: ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)`f4b358d793ce4105b46d9f055cf53f79`
 
-## <h4 id="api-config-field">Api Configuration</h4>
+## <h3 id="api-config-field">Api Configuration</h3>
    This allows to add consumers with external Tax provider(e.g. TaxJar) URL & their Authentication token. So, this App having capability to onbaord a consumer and     
    configure exteral tax api like TaxJar. As long as data contract not changing this app will handle multiple external Api to get Tax information.
  
- ## <h4 id="api-swagger-field">Api Swagger</h4>
+ ## <h3 id="api-swagger-field">Api Swagger</h3>
    This provides standard TaxApi documentation and capability to consumer it.
           
    ![image](https://user-images.githubusercontent.com/1794465/115150554-dfe5f580-a036-11eb-9443-c3da4e220963.png)
 
- ## <h4 id="api-action-field">Api In Action</h4>
+ ## <h3 id="api-action-field">Api In Action</h3>
    
    1. GetTax Rate:
    
