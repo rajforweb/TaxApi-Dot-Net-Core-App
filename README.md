@@ -67,9 +67,9 @@ Prerequisite : .Net Core 3.1.
    configure external tax api like TaxJar. As long as data contract not changing this app will handle multiple external Api to get Tax information.
  
 ## <h3 id="api-swagger-field">Api Swagger</h3>
-   This provides standard TaxApi documentation and capability to consume it.
+   - This provides standard TaxApi documentation and capability to consume it.
           
-   ![image](https://user-images.githubusercontent.com/1794465/115150554-dfe5f580-a036-11eb-9443-c3da4e220963.png)
+     ![image](https://user-images.githubusercontent.com/1794465/115150554-dfe5f580-a036-11eb-9443-c3da4e220963.png)
 
 ## <h3 id="api-action-field">Api In Action</h3>
    
