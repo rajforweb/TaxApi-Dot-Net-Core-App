@@ -62,7 +62,7 @@ This Api is build on .Net Core 3.1 which is a lightweight, cross platform and hi
    
    1. GetTax Rate:
    
-   ![image](https://user-images.githubusercontent.com/1794465/115150756-cdb88700-a037-11eb-8da8-64cd1fa4a0ed.png)
+   ![image](https://user-images.githubusercontent.com/1794465/115155595-bc2ea980-a04e-11eb-8414-cb89e7184edd.png)
    
    2. Order Tax:
     
