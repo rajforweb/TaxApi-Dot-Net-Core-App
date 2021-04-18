@@ -1,0 +1,15 @@
+// {type:sequence}
+// Calculate Tax For Order
+// {generate:true}
+//Post TaxForOrder
+[Consumer]-[note: Calculate Tax For an Order {bg:cornsilk}]
+[Consumer]Post ​/api​/Tax​/OrderTax >[TaxApi]
+[TaxApi] Validates Consumer .>[TaxApi]
+[TaxApi] Call TaxForOrder Service Method >[TaxApi-Service-Layer]
+[TaxApi-Service-Layer] Validates OrderTax Request & Get Consumer Details.>[TaxApi-Service-Layer]
+[TaxApi-Service-Layer] Call GetTaxRate Repository with ApiRequest >[TaxApi-Repository-Layer]
+[TaxApi-Repository-Layer] Call TaxJarApi >[Partner-TaxJarApi]
+[Partner-TaxJarApi]response .>[TaxApi-Repository-Layer]
+[TaxApi-Repository-Layer]response .>[TaxApi-Service-Layer]
+[TaxApi-Service-Layer]response .>[TaxApi]
+[TaxApi]response .>[Consumer]

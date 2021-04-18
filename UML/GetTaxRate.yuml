@@ -1,0 +1,15 @@
+// {type:sequence}
+// TaxRate
+// {generate:true}
+//Get Tax Rate
+[Consumer]-[note: Get Tax Rate {bg:cornsilk}]
+[Consumer]GET /api/Tax/TaxRate >[TaxApi]
+[TaxApi] Validates Consumer .>[TaxApi]
+[TaxApi] Call GetTaxRate Service Method >[TaxApi-Service-Layer]
+[TaxApi-Service-Layer] Validates TaxRate Request & Get Consumer Details.>[TaxApi-Service-Layer]
+[TaxApi-Service-Layer] Call GetTaxRate Repository with ApiRequest >[TaxApi-Repository-Layer]
+[TaxApi-Repository-Layer] Call TaxJarApi >[Partner-TaxJarApi]
+[Partner-TaxJarApi]response .>[TaxApi-Repository-Layer]
+[TaxApi-Repository-Layer]response .>[TaxApi-Service-Layer]
+[TaxApi-Service-Layer]response .>[TaxApi]
+[TaxApi]response .>[Consumer]
