@@ -4,13 +4,21 @@ Dot Net Core Web Api to Communicate with External Tax Api (e.g. TaxJar)
 ## TaxApi Detail:
 
 * [Api UML](#api-uml-field) 
+* [Api Dependency](#api-dependency-field) 
 * [Api Architecture](#api-arc-field) 
 * [Api Security](#api-security-field) 
 * [Api Configuration](#api-config-field) 
 * [Api Swagger](#api-swagger-field) 
 * [Api in Action](#api-action-field) 
+* [Authors](#api-authors-field) 
 
 ## <h3 id="api-uml-field">Api UML</h3>
+
+## <h3 id="api-dependency-field">Api Dependency</h3> 
+TaxApi build on .Net Core 3.1. This can be deployed on web server Or, Docker container with asp net images.
+
+To use docker need to follow below link:
+https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/docker/building-net-docker-images?view=aspnetcore-3.1
 
 ## <h3 id="api-arc-field">Api Architecture</h3>  
 
@@ -45,12 +53,12 @@ This Api is build on .Net Core 3.1 which is a lightweight, cross platform and hi
    This allows to add consumers with external Tax provider(e.g. TaxJar) URL & their Authentication token. So, this App having capability to onbaord a consumer and     
    configure exteral tax api like TaxJar. As long as data contract not changing this app will handle multiple external Api to get Tax information.
  
- ## <h3 id="api-swagger-field">Api Swagger</h3>
+## <h3 id="api-swagger-field">Api Swagger</h3>
    This provides standard TaxApi documentation and capability to consumer it.
           
    ![image](https://user-images.githubusercontent.com/1794465/115150554-dfe5f580-a036-11eb-9443-c3da4e220963.png)
 
- ## <h3 id="api-action-field">Api In Action</h3>
+## <h3 id="api-action-field">Api In Action</h3>
    
    1. GetTax Rate:
    
@@ -59,3 +67,6 @@ This Api is build on .Net Core 3.1 which is a lightweight, cross platform and hi
    2. Order Tax:
     
    ![image](https://user-images.githubusercontent.com/1794465/115151201-d5792b00-a039-11eb-883f-0d183aebf069.png)
+
+## <h3 id="api-authors-field">Authors</h3> 
+- Raj Kumar
