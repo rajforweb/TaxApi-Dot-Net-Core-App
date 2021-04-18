@@ -16,11 +16,11 @@ Dot Net Core Web Api to Communicate with External Tax Api (e.g. TaxJar)
 
 1. Get Tax Rate
 
-![image](https://user-images.githubusercontent.com/1794465/115158841-34509b80-a05e-11eb-9326-f15cd2027ef0.png)
+  ![image](https://user-images.githubusercontent.com/1794465/115158841-34509b80-a05e-11eb-9326-f15cd2027ef0.png)
 
 2. Calculate Tax for an Order
 
-![image](https://user-images.githubusercontent.com/1794465/115158852-43374e00-a05e-11eb-8a52-313ea953b659.png)
+  ![image](https://user-images.githubusercontent.com/1794465/115158852-43374e00-a05e-11eb-8a52-313ea953b659.png)
 
 
 ## <h3 id="api-dependency-field">Api Prerequisite</h3> 
@@ -73,13 +73,13 @@ Prerequisite : .Net Core 3.1.
 
 ## <h3 id="api-action-field">Api In Action</h3>
    
-   1. GetTax Rate:
+ 1. GetTax Rate:
    
-   ![image](https://user-images.githubusercontent.com/1794465/115155595-bc2ea980-a04e-11eb-8414-cb89e7184edd.png)
+    ![image](https://user-images.githubusercontent.com/1794465/115155595-bc2ea980-a04e-11eb-8414-cb89e7184edd.png)
    
-   2. Order Tax:
+ 2. Order Tax:
     
-   ![image](https://user-images.githubusercontent.com/1794465/115151201-d5792b00-a039-11eb-883f-0d183aebf069.png)
+    ![image](https://user-images.githubusercontent.com/1794465/115151201-d5792b00-a039-11eb-883f-0d183aebf069.png)
 
 ## <h3 id="api-authors-field">Authors</h3> 
 - Raj Kumar
