@@ -57,8 +57,8 @@ Dot Net Core Web Api to Communicate with External Tax Api (e.g. TaxJar)
 
 
 ## <h3 id="api-security-field">Api Security</h3>
-   TaxApi is Secure and only allowed to Consumer with having valid consumer key. User without valid consumer key won’t be able to use this API and request will fail.
-   Please use consumerKey as "f4b358d793ce4105b46d9f055cf53f79" to use this App. 
+- TaxApi is Secure and only allowed to Consumer with having valid consumer key. User without valid consumer key won’t be able to use this API and request will fail.
+   Please use consumerKey as "f4b358d793ce4105b46d9f055cf53f79" to use this App. This is configured using AppSettings.Json.
   
    e.g. ConsumerKey: ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)`f4b358d793ce4105b46d9f055cf53f79`
 
