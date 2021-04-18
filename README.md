@@ -33,7 +33,7 @@ Prerequisite : .Net Core 3.1.
 - This Api is build on .Net Core 3.1 which is a lightweight, cross platform and high performance framewrok. 
 - Api is build on ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)`Onion Architecture` pattern which provides a better way to build applications for better testability, maintainability, and dependability on the infrastructures like databases and service.
 
-![image](https://user-images.githubusercontent.com/1794465/115149600-e07c8d00-a032-11eb-9852-5e3b5b717239.png)
+  ![image](https://user-images.githubusercontent.com/1794465/115149600-e07c8d00-a032-11eb-9852-5e3b5b717239.png)
 
 * <h5 id="api-arc-field">TaxApi.Host</h5>
   Tax Controller enables :
