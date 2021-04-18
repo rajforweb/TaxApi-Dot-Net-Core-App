@@ -16,16 +16,16 @@ Dot Net Core Web Api to Communicate with External Tax Api (e.g. TaxJar)
 
 1. Get Tax Rate
 
-  ![image](https://user-images.githubusercontent.com/1794465/115158841-34509b80-a05e-11eb-9326-f15cd2027ef0.png)
+    ![image](https://user-images.githubusercontent.com/1794465/115158841-34509b80-a05e-11eb-9326-f15cd2027ef0.png)
 
 2. Calculate Tax for an Order
 
-  ![image](https://user-images.githubusercontent.com/1794465/115158852-43374e00-a05e-11eb-8a52-313ea953b659.png)
+    ![image](https://user-images.githubusercontent.com/1794465/115158852-43374e00-a05e-11eb-8a52-313ea953b659.png)
 
 
 ## <h3 id="api-dependency-field">Api Prerequisite</h3> 
 
-Prerequisite : .Net Core 3.1. 
+- Prerequisite : .Net Core 3.1. 
 
 
 ## <h3 id="api-arc-field">Api Architecture</h3>  
@@ -36,14 +36,14 @@ Prerequisite : .Net Core 3.1.
   ![image](https://user-images.githubusercontent.com/1794465/115149600-e07c8d00-a032-11eb-9852-5e3b5b717239.png)
 
 * <h5 id="api-arc-field">TaxApi.Host</h5>
-  Tax Controller enables :
-1. To Get Tax Rates.
-2. Calculate Tax for an Order.
+-   Tax Controller enables :
+  1. To Get Tax Rates.
+  2. Calculate Tax for an Order.
 
 * <h5 id="api-arc-field">TaxApi.Core</h5>
-1. Service Layer : Enables to communicates with Repositories. One controller will have one Service. Service layer validates the request and populates a valid 
+  1. Service Layer : Enables to communicates with Repositories. One controller will have one Service. Service layer validates the request and populates a valid 
                   apiRequest and sends to repository.
-2. Repository Layer : Enables to make ApiCall and returns response.
+  2. Repository Layer : Enables to make ApiCall and returns response.
 
 * <h5 id="api-arc-field">TaxApi.Domain</h5>   
      This layer keep all model.Entities required to process request and return response.
@@ -63,7 +63,7 @@ Prerequisite : .Net Core 3.1.
    e.g. ConsumerKey: ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)`f4b358d793ce4105b46d9f055cf53f79`
 
 ## <h3 id="api-config-field">Api Configuration</h3>
-   This allows to add consumers with external Tax provider(e.g. TaxJar) URL & their Authentication token. So, this App having capability to onboard a consumer and     
+- This allows to add consumers with external Tax provider(e.g. TaxJar) URL & their Authentication token. So, this App having capability to onboard a consumer and     
    configure external tax api like TaxJar. As long as data contract not changing this app will handle multiple external Api to get Tax information.
  
 ## <h3 id="api-swagger-field">Api Swagger</h3>
