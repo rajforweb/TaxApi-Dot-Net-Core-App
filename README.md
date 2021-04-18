@@ -17,7 +17,7 @@ Dot Net Core Web Api to Communicate with External Tax Api (e.g. TaxJar)
 This Api is build on .Net Core 3.1 which is a lightweight, cross platform and high performance framewrok. Api is build on Onion Architecture pattern which provides a better way to build applications for better testability, maintainability, and  dependability on the infrastructures like databases and service.
 
 * <h5 id="api-arc-field">TaxApi.Host</h5>
-Tax Controller enables 
+  Tax Controller enables :
 1. To Get Tax Rates.
 2. Calculate Tax for an Order.
 * <h5 id="api-arc-field">TaxApi.Core</h5>
