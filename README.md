@@ -4,7 +4,7 @@ Dot Net Core Web Api to Communicate with External Tax Api (e.g. TaxJar)
 ## TaxApi Detail:
 
 * [Api UML](#api-uml-field) 
-* [Api Dependency](#api-dependency-field) 
+* [Api Prerequisite](#api-dependency-field) 
 * [Api Architecture](#api-arc-field) 
 * [Api Security](#api-security-field) 
 * [Api Configuration](#api-config-field) 
@@ -23,10 +23,10 @@ Dot Net Core Web Api to Communicate with External Tax Api (e.g. TaxJar)
 ![image](https://user-images.githubusercontent.com/1794465/115158852-43374e00-a05e-11eb-8a52-313ea953b659.png)
 
 
-## <h3 id="api-dependency-field">Api Dependency</h3> 
-TaxApi build on .Net Core 3.1. This can be deployed on web server Or, on cloud using Docker container with asp .net core images.
+## <h3 id="api-dependency-field">Api Prerequisite</h3> 
 
-To use docker follow link: https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/docker/building-net-docker-images?view=aspnetcore-3.1
+Prerequisite : .Net Core 3.1. 
+
 
 ## <h3 id="api-arc-field">Api Architecture</h3>  
 
