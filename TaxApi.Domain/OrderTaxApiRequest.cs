@@ -68,12 +68,12 @@ namespace TaxApi.Domain
         /// <summary>
         /// Amount
         /// </summary>
-        public int Amount { get; set; }
+        public decimal Amount { get; set; }
         
         /// <summary>
         /// Shipping cost
         /// </summary>
-        public double Shipping { get; set; }
+        public decimal Shipping { get; set; }
         
         /// <summary>
         /// Address Object

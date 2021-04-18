@@ -18,7 +18,7 @@ namespace TaxApi.Filters
             {
                 Name = "ConsumerKey",
                 In = ParameterLocation.Header,
-                Description = "Enter Consumer Key e.g. IMC",
+                Description = "Enter Consumer Key e.g. f4b358d793ce4105b46d9f055cf53f79",
                 Schema = new OpenApiSchema
                 {
                     Type = "string"

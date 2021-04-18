@@ -6,21 +6,21 @@ namespace TaxApi.Domain.Entities
 {
     public class Breakdown
     {
-        public int Taxable_amount { get; set; }
-        public double Tax_collectable { get; set; }
-        public double Combined_tax_rate { get; set; }
-        public int State_taxable_amount { get; set; }
-        public double State_tax_rate { get; set; }
-        public double State_tax_collectable { get; set; }
-        public int County_taxable_amount { get; set; }
-        public double County_tax_rate { get; set; }
-        public double County_tax_collectable { get; set; }
-        public int City_taxable_amount { get; set; }
-        public int City_tax_rate { get; set; }
-        public int City_tax_collectable { get; set; }
-        public int Special_district_taxable_amount { get; set; }
-        public double Special_tax_rate { get; set; }
-        public double Special_district_tax_collectable { get; set; }
+        public decimal Taxable_amount { get; set; }
+        public decimal Tax_collectable { get; set; }
+        public decimal Combined_tax_rate { get; set; }
+        public decimal State_taxable_amount { get; set; }
+        public decimal State_tax_rate { get; set; }
+        public decimal State_tax_collectable { get; set; }
+        public decimal County_taxable_amount { get; set; }
+        public decimal County_tax_rate { get; set; }
+        public decimal County_tax_collectable { get; set; }
+        public decimal City_taxable_amount { get; set; }
+        public decimal City_tax_rate { get; set; }
+        public decimal City_tax_collectable { get; set; }
+        public decimal Special_district_taxable_amount { get; set; }
+        public decimal Special_tax_rate { get; set; }
+        public decimal Special_district_tax_collectable { get; set; }
         public List<TaxLineItem> Line_items { get; set; }
     }
 

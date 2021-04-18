@@ -27,11 +27,11 @@ namespace TaxApi.Domain.Entities
         /// <summary>
         /// Unit_price
         /// </summary>
-        public int Unit_price { get; set; }
+        public decimal Unit_price { get; set; }
 
         /// <summary>
         /// Discount
         /// </summary>
-        public int Discount { get; set; }
+        public decimal Discount { get; set; }
     }
 }

@@ -12,27 +12,27 @@ namespace TaxApi.Domain.Entities
         /// <summary>
         /// Order total amount
         /// </summary>
-        public double Order_total_amount { get; set; }
+        public decimal Order_total_amount { get; set; }
 
         /// <summary>
         /// Shipping
         /// </summary>
-        public double Shipping { get; set; }
+        public decimal Shipping { get; set; }
 
         /// <summary>
         /// Taxable Amount
         /// </summary>
-        public int Taxable_amount { get; set; }
+        public decimal Taxable_amount { get; set; }
 
         /// <summary>
         /// Amount to collect
         /// </summary>
-        public double Amount_to_collect { get; set; }
+        public decimal Amount_to_collect { get; set; }
 
         /// <summary>
         /// Rate amount
         /// </summary>
-        public double Rate { get; set; }
+        public decimal Rate { get; set; }
 
         /// <summary>
         /// Has nexus flag
