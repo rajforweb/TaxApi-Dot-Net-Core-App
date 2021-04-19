@@ -18,13 +18,13 @@ Dot Net Core Web Api to Communicate with External Tax Api (e.g. TaxJar)
 
     ![image](https://user-images.githubusercontent.com/1794465/115158841-34509b80-a05e-11eb-9326-f15cd2027ef0.png)
 
-    Source: https://github.com/rajforweb/TaxApi-Dot-Net-Core-App/blob/main/UML/GetTaxRate.yuml
+    Sequence Source: https://github.com/rajforweb/TaxApi-Dot-Net-Core-App/blob/main/UML/GetTaxRate.yuml
     
 2. Calculate Tax for an Order
 
     ![image](https://user-images.githubusercontent.com/1794465/115158852-43374e00-a05e-11eb-8a52-313ea953b659.png)
 
-    Source: https://github.com/rajforweb/TaxApi-Dot-Net-Core-App/blob/main/UML/TaxForOrder.yuml
+    Sequence Source: https://github.com/rajforweb/TaxApi-Dot-Net-Core-App/blob/main/UML/TaxForOrder.yuml
     
 ## <h3 id="api-dependency-field">Api Prerequisite</h3> 
 
@@ -100,6 +100,10 @@ Dot Net Core Web Api to Communicate with External Tax Api (e.g. TaxJar)
     
     * Error
     ![image](https://user-images.githubusercontent.com/1794465/115167122-47766200-a084-11eb-9f74-70c8f8f9467b.png)
+
+ 3. Invalid Consumer
+    
+    ![image](https://user-images.githubusercontent.com/1794465/115167881-0df32600-a087-11eb-8d4a-7af08e02f0d0.png)
 
 
 ## <h3 id="api-authors-field">Authors</h3> 
